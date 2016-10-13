@@ -1,1 +1,0 @@
-scrapy crawl providers -o providers.json -a search_word=arvuti -a location=Harjumaa
