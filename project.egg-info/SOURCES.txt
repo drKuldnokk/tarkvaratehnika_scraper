@@ -1,0 +1,12 @@
+setup.py
+kratt/__init__.py
+kratt/items.py
+kratt/pipelines.py
+kratt/settings.py
+kratt/spiders/__init__.py
+kratt/spiders/providers_spider.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt

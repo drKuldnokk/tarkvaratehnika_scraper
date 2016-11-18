@@ -7,6 +7,7 @@
 
 import json
 import smtplib
+from scrapy.mail import MailSender
 
 class KrattPipeline(object):
     

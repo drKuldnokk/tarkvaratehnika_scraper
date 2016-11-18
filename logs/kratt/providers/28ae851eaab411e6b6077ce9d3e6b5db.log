@@ -1,0 +1,106 @@
+2016-11-14 23:49:04 [scrapy] INFO: Scrapy 1.1.2 started (bot: kratt)
+2016-11-14 23:49:04 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'kratt.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['kratt.spiders'], 'LOG_FILE': 'logs\\kratt\\providers\\28ae851eaab411e6b6077ce9d3e6b5db.log', 'BOT_NAME': 'kratt'}
+2016-11-14 23:49:04 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-11-14 23:49:04 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-11-14 23:49:04 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-11-14 23:49:04 [scrapy] INFO: Enabled item pipelines:
+['kratt.pipelines.KrattPipeline']
+2016-11-14 23:49:04 [scrapy] INFO: Spider opened
+2016-11-14 23:49:04 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-11-14 23:49:04 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-11-14 23:49:05 [scrapy] DEBUG: Crawled (200) <GET https://www.1182.ee/robots.txt> (referer: None)
+2016-11-14 23:49:06 [scrapy] DEBUG: Crawled (200) <GET https://www.1182.ee/otsing/kodukino> (referer: None)
+2016-11-14 23:49:07 [scrapy] DEBUG: Crawled (200) <GET https://www.1182.ee/netiabi-hoolduskeskus> (referer: https://www.1182.ee/otsing/kodukino)
+2016-11-14 23:49:09 [scrapy] DEBUG: Scraped from <200 https://www.1182.ee/netiabi-hoolduskeskus>
+{'e_mail': u'netiabi@netiabi.ee',
+ 'name': u'NETIABI HOOLDUSKESKUS',
+ 'registry_num': u'11181826'}
+2016-11-14 23:49:09 [scrapy] DEBUG: Crawled (200) <GET https://www.1182.ee/nikon-hooldus> (referer: https://www.1182.ee/otsing/kodukino)
+2016-11-14 23:49:09 [scrapy] DEBUG: Crawled (200) <GET https://www.1182.ee/vahur-koppelmann-fie-rutm-tookoda> (referer: https://www.1182.ee/otsing/kodukino)
+2016-11-14 23:49:09 [scrapy] DEBUG: Crawled (200) <GET https://www.1182.ee/printerikeskus-tallinnas-kris-grupp-ou> (referer: https://www.1182.ee/otsing/kodukino)
+2016-11-14 23:49:09 [scrapy] DEBUG: Crawled (200) <GET https://www.1182.ee/panaservice-ou> (referer: https://www.1182.ee/otsing/kodukino)
+2016-11-14 23:49:11 [scrapy] DEBUG: Scraped from <200 https://www.1182.ee/nikon-hooldus>
+{'e_mail': u'nikon@arwest.ee', 'name': u'NIKON hooldus', 'registry_num': None}
+2016-11-14 23:49:11 [scrapy] DEBUG: Crawled (200) <GET https://www.1182.ee/accra-ou> (referer: https://www.1182.ee/otsing/kodukino)
+2016-11-14 23:49:11 [scrapy] DEBUG: Crawled (200) <GET https://www.1182.ee/arwest-ou> (referer: https://www.1182.ee/otsing/kodukino)
+2016-11-14 23:49:11 [scrapy] DEBUG: Crawled (200) <GET https://www.1182.ee/hestifor-ou> (referer: https://www.1182.ee/otsing/kodukino)
+2016-11-14 23:49:12 [scrapy] DEBUG: Scraped from <200 https://www.1182.ee/vahur-koppelmann-fie-rutm-tookoda>
+{'e_mail': u'vahur.ko@neti.ee',
+ 'name': u'Vahur Koppelmann FIE R\xfctm t\xf6\xf6koda',
+ 'registry_num': u'11772792'}
+2016-11-14 23:49:13 [scrapy] DEBUG: Scraped from <200 https://www.1182.ee/printerikeskus-tallinnas-kris-grupp-ou>
+{'e_mail': u'info@printerikeskus.ee',
+ 'name': u'PRINTERIKESKUS Tallinnas Kris Grupp O\xdc',
+ 'registry_num': u'10240917'}
+2016-11-14 23:49:15 [scrapy] DEBUG: Scraped from <200 https://www.1182.ee/panaservice-ou>
+{'e_mail': u'info@panaservice.ee',
+ 'name': u'Panaservice O\xdc',
+ 'registry_num': u'11113262'}
+2016-11-14 23:49:15 [scrapy] DEBUG: Crawled (200) <GET https://www.1182.ee/printerikeskus-tartus-kris-grupp-ou-tartu> (referer: https://www.1182.ee/otsing/kodukino)
+2016-11-14 23:49:15 [scrapy] DEBUG: Crawled (200) <GET https://www.1182.ee/simson-servicenet-ee-ou-tartu-filiaal> (referer: https://www.1182.ee/otsing/kodukino)
+2016-11-14 23:49:15 [scrapy] DEBUG: Crawled (200) <GET https://www.1182.ee/simson-servicenet-ee-ou-teeninduskeskus> (referer: https://www.1182.ee/otsing/kodukino)
+2016-11-14 23:49:16 [scrapy] DEBUG: Scraped from <200 https://www.1182.ee/accra-ou>
+{'e_mail': u'tarmo@accra.ee',
+ 'name': u'Accra O\xdc',
+ 'registry_num': u'10309075'}
+2016-11-14 23:49:17 [scrapy] DEBUG: Scraped from <200 https://www.1182.ee/arwest-ou>
+{'e_mail': u'arwest@arwest.ee',
+ 'name': u'Arwest O\xdc',
+ 'registry_num': u'10244832'}
+2016-11-14 23:49:19 [scrapy] DEBUG: Scraped from <200 https://www.1182.ee/hestifor-ou>
+{'e_mail': u'info@ledcenter.ee',
+ 'name': u'Hestifor O\xdc',
+ 'registry_num': u'10984948'}
+2016-11-14 23:49:20 [scrapy] DEBUG: Scraped from <200 https://www.1182.ee/printerikeskus-tartus-kris-grupp-ou-tartu>
+{'e_mail': u'info@printerikeskus.ee',
+ 'name': u'PRINTERIKESKUS Tartus Kris Grupp O\xdc',
+ 'registry_num': None}
+2016-11-14 23:49:21 [scrapy] DEBUG: Scraped from <200 https://www.1182.ee/simson-servicenet-ee-ou-tartu-filiaal>
+{'e_mail': u'tartu@servicenet.ee',
+ 'name': u'Simson ServiceNet EE O\xdc Tartu filiaal',
+ 'registry_num': None}
+2016-11-14 23:49:23 [scrapy] DEBUG: Scraped from <200 https://www.1182.ee/simson-servicenet-ee-ou-teeninduskeskus>
+{'e_mail': u'info@teeninduskeskus.ee',
+ 'name': u'Simson ServiceNet EE O\xdc - Teeninduskeskus',
+ 'registry_num': u'10788526'}
+2016-11-14 23:49:23 [scrapy] INFO: Closing spider (finished)
+2016-11-14 23:49:23 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 4018,
+ 'downloader/request_count': 13,
+ 'downloader/request_method_count/GET': 13,
+ 'downloader/response_bytes': 118498,
+ 'downloader/response_count': 13,
+ 'downloader/response_status_count/200': 13,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 11, 14, 21, 49, 23, 137000),
+ 'item_scraped_count': 11,
+ 'log_count/DEBUG': 25,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 13,
+ 'scheduler/dequeued': 12,
+ 'scheduler/dequeued/memory': 12,
+ 'scheduler/enqueued': 12,
+ 'scheduler/enqueued/memory': 12,
+ 'start_time': datetime.datetime(2016, 11, 14, 21, 49, 4, 756000)}
+2016-11-14 23:49:23 [scrapy] INFO: Spider closed (finished)
